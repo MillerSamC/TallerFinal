@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultados del Modelo Fotovoltaico</title>
+    <link rel="stylesheet" href="styler">
+</head>
+<body>
+    <h1>Resultados del Modelo Fotovoltaico</h1>
+    <p>Vmp: {{ Vmpp }} V</p>
+    <p>Imp: {{ Impp }} A</p>
+    <p>Pmax: {{ P_max }} W</p>
+    <img src="data:image/png;base64,{{ plot_url }}">
+    <footer>
+        <h1>Estudiantes:</h1>
+        <h3>Diogenes Barreto Alvarez</h3>
+        <h3>Carlos Mauricio Moreno Rojas</h3>
+        <h3>Miller Alexander Quiroga Campos</h3>
+        <h3>John Mario Gutierrez</h3>
+    </footer>
+</body>
+</html>
